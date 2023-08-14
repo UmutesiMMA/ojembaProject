@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Link](https://livedemo.com)
+[Live Link](https://ojemba-project.netlify.app/)
 
 
 ## Getting Started
