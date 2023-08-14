@@ -21,6 +21,8 @@
 - Install VS Code
 - Clone `git@github.com:UmutesiMMA/ojembaProject.git`
 
+run: `npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch`
+
 
 ## Authors
 
