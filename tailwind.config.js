@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html','./js/index.js'],
+  content: ['./build/*.html', './build/sections/*.html', './build/js/*.js'],
   theme: {
     container: {
       center: true,
@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'green-ojemba': '#8ACC50',
+        'primary-green': '#8ACC50',
       },
     },
   },

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ojemba Project</title>
+    </head>
+    <script>
+        const loadComponents = (id, url) =>  {
+            fetch(url)
+            .then((response) => response.text())
+            .then((html) => {
+                document.getElementById(id).innerHTML = html;
+            });
+        }
+
+        window.onload = () => {
+            loadComponents('header', 'sections/header.html');
+            loadComponents('hero', 'sections/hero.html');
+            loadComponents('team', 'sections/team.html');
+            loadComponents('skills', 'sections/skills.html');
+            loadComponents('qualitat', 'sections/qualitat.html');
+            loadComponents('partners', 'sections/partners.html');
+            loadComponents('founder', 'sections/founder.html');
+            loadComponents('rwanda', 'sections/rwanda.html');
+            loadComponents('footer', 'sections/footer.html');
+        }
+    </script>
+    <body>
+        <div id="header"></div>
+        <div id="hero"></div>
+        <div id="team"></div>
+        <div id="skills"></div>
+        <div id="qualitat"></div>
+        <div id="partners"></div>
+        <div id="founder"></div>
+        <div id="rwanda"></div>
+        <div id="footer"></div>
+    </body>
+</html>
