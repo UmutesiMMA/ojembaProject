@@ -521,3 +521,17 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-green-ojemba {
+  --tw-text-opacity: 1;
+  color: rgb(138 204 80 / var(--tw-text-opacity));
+}
