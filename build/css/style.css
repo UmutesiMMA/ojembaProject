@@ -564,6 +564,18 @@ video {
   }
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -594,6 +606,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .bg-\[url\(\'\.\.\/Images\/BG_Founder\.svg\'\)\] {
@@ -632,6 +648,14 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .font-raleway {
