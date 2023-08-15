@@ -12,3 +12,8 @@
     font-family: 'Raleway';
     src: url('../fonts/Raleway.ttf');
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
