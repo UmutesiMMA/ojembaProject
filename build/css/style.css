@@ -522,7 +522,169 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.bg-\[url\(\'\.\.\/Images\/BG_Founder\.svg\'\)\] {
+  background-image: url('../Images/BG_Founder.svg');
+}
+
+.bg-\[url\(\'\.\.\/Images\/bg_hero\.png\'\)\] {
+  background-image: url('../Images/bg_hero.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.font-raleway {
+  font-family: raleway, Helvetica;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Roboto';
+
+  src: url('../fonts/Roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+
+  src: url('../fonts/Raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat.ttf');
 }
