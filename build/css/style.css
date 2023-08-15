@@ -564,12 +564,28 @@ video {
   }
 }
 
+.team-input {
+  flex: 1 1 0%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.75rem;
+  font-family: Montserrat, Helvetica;
+  font-weight: 700;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -580,50 +596,65 @@ video {
   display: flex;
 }
 
-.max-w-\[\] {
-  max-width: ;
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 
-.max-w-\[500px\] {
-  max-width: 500px;
-}
-
-.max-w-\[940px\] {
-  max-width: 940px;
+.min-w-\[340px\] {
+  min-width: 340px;
 }
 
 .max-w-\[900px\] {
   max-width: 900px;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-center {
+  justify-content: center;
 }
 
-.gap-x-12 {
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+.gap-x-32 {
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
-.font-montserrat {
-  font-family: Montserrat, Helvetica;
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-primary-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(138 204 80 / var(--tw-border-opacity));
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .font-raleway {
   font-family: raleway, Helvetica;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-lg {
@@ -636,30 +667,16 @@ video {
   line-height: 2rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .font-semibold {
   font-weight: 600;
-}
-
-.text-primary-green {
-  --tw-text-opacity: 1;
-  color: rgb(138 204 80 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[040404\] {
-  color: 040404;
 }
 
 .text-\[\#040404\] {
@@ -667,18 +684,14 @@ video {
   color: rgb(4 4 4 / var(--tw-text-opacity));
 }
 
-.text-\[116355\] {
-  color: 116355;
-}
-
 .text-\[\#116355\] {
   --tw-text-opacity: 1;
   color: rgb(17 99 85 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-primary-green {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(138 204 80 / var(--tw-text-opacity));
 }
 
 @font-face {

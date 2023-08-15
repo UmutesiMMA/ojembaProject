@@ -17,3 +17,9 @@
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat.ttf');
 }
+
+@layer components {
+    .team-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
+}
