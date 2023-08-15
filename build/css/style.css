@@ -586,6 +586,30 @@ video {
   opacity: 0.5;
 }
 
+.before-underline {
+  position: relative;
+}
+
+.before-underline::before {
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  box-sizing: content-box;
+  display: block;
+  height: 0.5rem;
+  width: 100%;
+  --tw-translate-x: -50%;
+  --tw-rotate: -4deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-bg-opacity: 1;
+  background-color: rgb(138 204 80 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  opacity: 0.3;
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
