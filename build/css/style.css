@@ -596,6 +596,78 @@ video {
   margin-top: auto;
 }
 
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.-mr-8 {
+  margin-right: -2rem;
+}
+
+.-mr-16 {
+  margin-right: -4rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.-mt-16 {
+  margin-top: -4rem;
+}
+
 .flex {
   display: flex;
 }
