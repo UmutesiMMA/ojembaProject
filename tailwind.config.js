@@ -15,6 +15,10 @@ module.exports = {
         'primary-green': '#8ACC50',
       },
     },
+    fontFamily: {
+      'roboto': 'Roboto, sans-serif',
+      'raleway': 'raleway, Helvetica'
+    }
   },
   plugins: [],
 }
