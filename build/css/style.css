@@ -522,6 +522,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-hero {
+  background-image: url('../images/win win.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
