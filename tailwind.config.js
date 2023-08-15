@@ -18,6 +18,10 @@ module.exports = {
         'hero': "url('../images/win win.png')"
       }
     },
+    fontFamily: {
+      'roboto': 'Roboto, sans-serif',
+      'raleway': 'raleway, Helvetica'
+    }
   },
   plugins: [],
 }
