@@ -568,6 +568,22 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -578,6 +594,10 @@ video {
 
 .bg-\[url\(\.\.\/Images\/bg-rectangle\.png\)\] {
   background-image: url(../Images/bg-rectangle.png);
+}
+
+.bg-\[url\(\.\.\/Images\/bg_hero\.png\)\] {
+  background-image: url(../Images/bg_hero.png);
 }
 
 .bg-cover {
@@ -591,6 +611,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-20 {
@@ -631,6 +656,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -668,6 +698,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
