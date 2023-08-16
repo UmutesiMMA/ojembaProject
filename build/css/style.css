@@ -899,6 +899,10 @@ video {
     margin-left: 2rem;
   }
 
+  .xl\:ml-14 {
+    margin-left: 3.5rem;
+  }
+
   .xl\:w-\[70\%\] {
     width: 70%;
   }
