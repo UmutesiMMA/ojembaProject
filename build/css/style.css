@@ -915,6 +915,14 @@ video {
     margin-top: -12rem;
   }
 
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .xl\:w-\[70\%\] {
     width: 70%;
   }
