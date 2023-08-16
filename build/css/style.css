@@ -907,6 +907,10 @@ video {
     margin-left: 4rem;
   }
 
+  .xl\:-mt-44 {
+    margin-top: -11rem;
+  }
+
   .xl\:w-\[70\%\] {
     width: 70%;
   }
