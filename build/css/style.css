@@ -522,7 +522,421 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-40 {
+  margin-right: 10rem;
+}
+
+.mr-80 {
+  margin-right: 20rem;
+}
+
+.mr-96 {
+  margin-right: 24rem;
+}
+
+.mr-\[30rem\] {
+  margin-right: 30rem;
+}
+
+.mr-\[28rem\] {
+  margin-right: 28rem;
+}
+
+.mr-\[35rem\] {
+  margin-right: 35rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[90rem\] {
+  width: 90rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-\[58rem\] {
+  width: 58rem;
+}
+
+.w-\[25\.25rem\] {
+  width: 25.25rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-\[auto\] {
+  width: auto;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.space-x-11 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-primary-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(138 204 80 / var(--tw-border-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-\[url\(\'\.\/images\/qualitat\.png\'\)\] {
+  background-image: url('./images/qualitat.png');
+}
+
+.bg-\[url\(\'build\/Images\/qualitat\.png\'\)\] {
+  background-image: url('build/Images/qualitat.png');
+}
+
+.bg-\[url\(\'\.\.build\/Images\/qualitat\.png\'\)\] {
+  background-image: url('..build/Images/qualitat.png');
+}
+
+.bg-\[url\(\'\.\.\/build\/Images\/qualitat\.png\'\)\] {
+  background-image: url('../build/Images/qualitat.png');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
+  background-image: url('../Images/qualitat.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-origin-content {
+  background-origin: content-box;
+}
+
+.p-11 {
+  padding: 2.75rem;
+}
+
+.p-\[351rem\] {
+  padding: 351rem;
+}
+
+.p-80 {
+  padding: 20rem;
+}
+
+.p-60 {
+  padding: 15rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.py-60 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
+.pb-60 {
+  padding-bottom: 15rem;
+}
+
+.pb-96 {
+  padding-bottom: 24rem;
+}
+
+.pb-\[50rem\] {
+  padding-bottom: 50rem;
+}
+
+.pb-\[100rem\] {
+  padding-bottom: 100rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-raleway {
+  font-family: raleway, Helvetica;
+}
+
+.font-montserrat {
+  font-family: Montserrat, Helvetica;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Roboto';
+
+  src: url('../fonts/Roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+
+  src: url('../fonts/Raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat.ttf');
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-\[35rem\] {
+    margin-right: 35rem;
+  }
+
+  .lg\:mr-\[28rem\] {
+    margin-right: 28rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-28 {
+    gap: 7rem;
+  }
 }
