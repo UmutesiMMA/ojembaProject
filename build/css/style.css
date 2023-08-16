@@ -564,6 +564,14 @@ video {
   }
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .bg-\[url\(\.\.\/Images\/bg-rectangle\)\] {
   background-image: url(../Images/bg-rectangle);
 }
@@ -580,9 +588,65 @@ video {
   background-repeat: no-repeat;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.font-montserrat {
+  font-family: Montserrat, Helvetica;
+}
+
+.font-raleway {
+  font-family: raleway, Helvetica;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -601,4 +665,10 @@ video {
   font-family: 'Montserrat';
 
   src: url('../fonts/Montserrat.ttf');
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
