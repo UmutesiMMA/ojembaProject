@@ -600,6 +600,10 @@ video {
   width: 65%;
 }
 
+.w-\[55\%\] {
+  width: 55%;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -668,6 +672,10 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[0\.9rem\] {
+  font-size: 0.9rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -676,6 +684,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
 }
 
 .text-\[0\.7rem\] {
@@ -696,6 +708,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-primary-green {
