@@ -759,6 +759,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -793,6 +797,10 @@ video {
   font-size: 20px;
 }
 
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .font-\[700\] {
   font-weight: 700;
 }
@@ -803,6 +811,10 @@ video {
 
 .font-\[600\] {
   font-weight: 600;
+}
+
+.font-\[900\] {
+  font-weight: 900;
 }
 
 .text-primary-green {
@@ -830,6 +842,10 @@ video {
 
 .text-\[20\] {
   color: 20;
+}
+
+.text-\[16\] {
+  color: 16;
 }
 
 .shadow-xl {
