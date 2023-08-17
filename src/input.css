@@ -12,3 +12,14 @@
     font-family: 'Raleway';
     src: url('../fonts/Raleway.ttf');
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
+
+@layer components {
+    .container {
+        @apply w-full max-w-[1928px]
+    }
+}

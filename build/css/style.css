@@ -564,6 +564,11 @@ video {
   }
 }
 
+.container {
+  width: 100%;
+  max-width: 1928px;
+}
+
 .flex {
   display: flex;
 }
@@ -583,11 +588,6 @@ video {
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-hero {
@@ -626,6 +626,12 @@ video {
   font-family: 'Raleway';
 
   src: url('../fonts/Raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat.ttf');
 }
 
 @media (min-width: 1024px) {
