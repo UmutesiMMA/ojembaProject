@@ -588,6 +588,14 @@ video {
   bottom: -0.5rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
 .-mt-8 {
   margin-top: -2rem;
 }
@@ -608,6 +616,18 @@ video {
   width: 65%;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -620,8 +640,18 @@ video {
   place-content: center;
 }
 
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
 .bg-\[url\(\.\.\/Images\/bg-rectangle\.png\)\] {
   background-image: url(../Images/bg-rectangle.png);
+}
+
+.bg-\[url\(\'\/build\/Images\/my-background\.png\'\)\] {
+  background-image: url('/build/Images/my-background.png');
 }
 
 .bg-cover {
@@ -637,6 +667,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -647,6 +682,10 @@ video {
 
 .pl-16 {
   padding-left: 4rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .font-montserrat {
@@ -665,6 +704,10 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[1\.625rem\] {
+  font-size: 1.625rem;
 }
 
 .font-bold {
