@@ -576,36 +576,72 @@ video {
   display: flex;
 }
 
-.w-72 {
-  width: 18rem;
+.grid {
+  display: grid;
 }
 
-.w-auto {
-  width: auto;
+.h-44 {
+  height: 11rem;
 }
 
-.w-\[45\%\] {
-  width: 45%;
+.h-20 {
+  height: 5rem;
 }
 
-.w-\[35\%\] {
-  width: 35%;
+.h-40 {
+  height: 10rem;
 }
 
-.w-\[25\%\] {
-  width: 25%;
+.h-32 {
+  height: 8rem;
 }
 
-.w-\[30\%\] {
-  width: 30%;
+.h-28 {
+  height: 7rem;
 }
 
-.w-\[\] {
-  width: ;
+.h-24 {
+  height: 6rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-16 {
   width: 4rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .w-28 {
@@ -616,60 +652,56 @@ video {
   width: 12rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
 .w-64 {
   width: 16rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-72 {
+  width: 18rem;
 }
 
-.w-\[12rem\] {
-  width: 12rem;
+.w-\[26rem\] {
+  width: 26rem;
 }
 
-.w-\[15rem\] {
-  width: 15rem;
+.w-\[25rem\] {
+  width: 25rem;
 }
 
-.w-\[13rem\] {
-  width: 13rem;
+.w-96 {
+  width: 24rem;
 }
 
-.w-\[12\.5rem\] {
-  width: 12.5rem;
+.w-\[27rem\] {
+  width: 27rem;
 }
 
-.w-\[20\.5rem\] {
-  width: 20.5rem;
+.w-\[30rem\] {
+  width: 30rem;
 }
 
-.w-\[19rem\] {
-  width: 19rem;
+.w-\[35rem\] {
+  width: 35rem;
 }
 
-.w-\[19\.5rem\] {
-  width: 19.5rem;
+.w-\[39rem\] {
+  width: 39rem;
 }
 
 .w-\[19\.3rem\] {
   width: 19.3rem;
 }
 
+.w-\[19\.5rem\] {
+  width: 19.5rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -684,12 +716,30 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-20 {
   gap: 5rem;
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 .border-b-2 {
@@ -705,12 +755,35 @@ video {
   background-color: transparent;
 }
 
+.bg-\[url\(\.\.\/Images\/BG_partners\.png\)\] {
+  background-image: url(../Images/BG_partners.png);
+}
+
 .bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
   background-image: url('../Images/qualitat.png');
 }
 
 .bg-cover {
   background-size: cover;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .py-12 {
@@ -738,6 +811,14 @@ video {
   padding-top: 15rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-montserrat {
   font-family: Montserrat, Helvetica;
 }
@@ -756,14 +837,24 @@ video {
   line-height: 1.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -774,8 +865,8 @@ video {
   font-weight: 500;
 }
 
-.font-light {
-  font-weight: 300;
+.font-normal {
+  font-weight: 400;
 }
 
 .text-primary-green {
@@ -804,16 +895,6 @@ video {
   font-family: 'Montserrat';
 
   src: url('../fonts/Montserrat.ttf');
-}
-
-@media (min-width: 640px) {
-  .sm\:w-52 {
-    width: 13rem;
-  }
-
-  .sm\:w-80 {
-    width: 20rem;
-  }
 }
 
 @media (min-width: 1024px) {
