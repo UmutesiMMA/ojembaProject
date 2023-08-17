@@ -760,21 +760,3 @@ video {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
 }
-
-@font-face {
-  font-family: 'Roboto';
-
-  src: url('../fonts/Roboto.ttf');
-}
-
-@font-face {
-  font-family: 'Raleway';
-
-  src: url('../fonts/Raleway.ttf');
-}
-
-@font-face {
-  font-family: 'Montserrat';
-
-  src: url('../fonts/Montserrat.ttf');
-}
