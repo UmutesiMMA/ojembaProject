@@ -720,6 +720,10 @@ video {
   justify-content: space-around;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -791,6 +795,11 @@ video {
   padding-bottom: 3rem;
 }
 
+.py-96 {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -811,8 +820,16 @@ video {
   padding-top: 15rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .align-middle {
