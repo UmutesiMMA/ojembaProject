@@ -564,6 +564,11 @@ video {
   }
 }
 
+.container {
+  width: 100%;
+  max-width: 1928px;
+}
+
 .relative {
   position: relative;
 }
@@ -681,6 +686,12 @@ video {
   font-family: 'Raleway';
 
   src: url('../fonts/Raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat.ttf');
 }
 
 @media (min-width: 768px) {

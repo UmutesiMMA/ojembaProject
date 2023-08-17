@@ -20,7 +20,8 @@ module.exports = {
     },
     fontFamily: {
       'roboto': 'Roboto, sans-serif',
-      'raleway': 'raleway, Helvetica'
+      'raleway': 'raleway, Helvetica',
+      'montserrat': 'Montserrat, Helvetica'
     }
   },
   plugins: [],
