@@ -572,12 +572,24 @@ video {
   position: relative;
 }
 
-.z-10 {
-  z-index: 10;
+.top-6 {
+  top: 1.5rem;
 }
 
-.z-\[99\] {
-  z-index: 99;
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-bottom-2 {
+  bottom: -0.5rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
 }
 
 .flex {
@@ -592,24 +604,8 @@ video {
   display: none;
 }
 
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
 .w-\[65\%\] {
   width: 65%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
 }
 
 .grid-cols-1 {
@@ -624,32 +620,8 @@ video {
   place-content: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.bg-\[url\(\.\.\/Images\/bg-rectangle\)\] {
-  background-image: url(../Images/bg-rectangle);
-}
-
 .bg-\[url\(\.\.\/Images\/bg-rectangle\.png\)\] {
   background-image: url(../Images/bg-rectangle.png);
-}
-
-.bg-\[url\(\.\.\/Images\/bg_hero\.png\)\] {
-  background-image: url(../Images/bg_hero.png);
-}
-
-.bg-\[url\(\.\.\/Images\/\.png\)\] {
-  background-image: url(../Images/.png);
-}
-
-.bg-\[url\(\.\.\/Images\/my-background\.png\)\] {
-  background-image: url(../Images/my-background.png);
-}
-
-.bg-\[url\(\'\/build\/Images\/my-background\.png\'\)\] {
-  background-image: url('/build/Images/my-background.png');
 }
 
 .bg-cover {
@@ -660,26 +632,9 @@ video {
   background-repeat: no-repeat;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-48 {
-  padding-top: 12rem;
 }
 
 .pb-16 {
@@ -690,6 +645,10 @@ video {
   padding-top: 10rem;
 }
 
+.pl-16 {
+  padding-left: 4rem;
+}
+
 .font-montserrat {
   font-family: Montserrat, Helvetica;
 }
@@ -698,27 +657,22 @@ video {
   font-family: raleway, Helvetica;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.font-medium {
-  font-weight: 500;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-primary-green {
