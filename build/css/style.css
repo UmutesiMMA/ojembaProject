@@ -564,6 +564,11 @@ video {
   }
 }
 
+.container {
+  width: 100%;
+  max-width: 1928px;
+}
+
 .relative {
   position: relative;
 }
@@ -580,112 +585,44 @@ video {
   display: grid;
 }
 
-.h-44 {
-  height: 11rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-28 {
-  height: 7rem;
-}
-
-.h-24 {
-  height: 6rem;
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-16 {
   height: 4rem;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-56 {
-  width: 14rem;
+.h-32 {
+  height: 8rem;
 }
 
 .w-16 {
   width: 4rem;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
 .w-28 {
   width: 7rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-48 {
   width: 12rem;
 }
 
-.w-64 {
-  width: 16rem;
+.w-60 {
+  width: 15rem;
 }
 
 .w-72 {
   width: 18rem;
 }
 
-.w-\[26rem\] {
-  width: 26rem;
-}
-
-.w-\[25rem\] {
-  width: 25rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[27rem\] {
-  width: 27rem;
-}
-
-.w-\[30rem\] {
-  width: 30rem;
-}
-
-.w-\[35rem\] {
-  width: 35rem;
-}
-
-.w-\[39rem\] {
-  width: 39rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[19\.3rem\] {
@@ -694,6 +631,14 @@ video {
 
 .w-\[19\.5rem\] {
   width: 19.5rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
+.w-\[39rem\] {
+  width: 39rem;
 }
 
 .flex-1 {
@@ -716,16 +661,8 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-items-center {
-  justify-items: center;
-}
-
-.gap-4 {
-  gap: 1rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-5 {
@@ -734,10 +671,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .space-y-16 > :not([hidden]) ~ :not([hidden]) {
@@ -759,25 +692,16 @@ video {
   background-color: transparent;
 }
 
-.bg-\[url\(\.\.\/Images\/BG_partners\.png\)\] {
-  background-image: url(../Images/BG_partners.png);
-}
-
 .bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
   background-image: url('../Images/qualitat.png');
 }
 
+.bg-\[url\(\.\.\/Images\/BG_partners\.png\)\] {
+  background-image: url(../Images/BG_partners.png);
+}
+
 .bg-cover {
   background-size: cover;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
 }
 
 .px-12 {
@@ -785,19 +709,14 @@ video {
   padding-right: 3rem;
 }
 
-.py-9 {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.py-96 {
-  padding-top: 24rem;
-  padding-bottom: 24rem;
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .pb-10 {
@@ -820,18 +739,6 @@ video {
   padding-top: 15rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.align-top {
-  vertical-align: top;
-}
-
 .align-middle {
   vertical-align: middle;
 }
@@ -849,29 +756,19 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -886,7 +783,56 @@ video {
   font-weight: 400;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(138 204 80 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Roboto';
+
+  src: url('../fonts/Roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+
+  src: url('../fonts/Raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat.ttf');
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-\[28rem\] {
+    margin-right: 28rem;
+  }
+
+  .lg\:mr-\[35rem\] {
+    margin-right: 35rem;
+  }
+
+  .lg\:w-\[12\.5rem\] {
+    width: 12.5rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-28 {
+    gap: 7rem;
+  }
 }
