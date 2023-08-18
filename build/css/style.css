@@ -1213,6 +1213,14 @@ video {
     margin-top: 6rem;
   }
 
+  .\32xl\:-mt-\[16\.8rem\] {
+    margin-top: -16.8rem;
+  }
+
+  .\32xl\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .\32xl\:w-\[55\%\] {
     width: 55%;
   }
