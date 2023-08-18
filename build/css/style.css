@@ -576,84 +576,60 @@ video {
   }
 }
 
-.h-auto {
-  height: auto;
-}
-
-.w-full {
+.container {
   width: 100%;
+  max-width: 1928px;
 }
 
-.border-b-4 {
-  border-bottom-width: 4px;
+.flex {
+  display: flex;
 }
 
-.border-primary-green {
-  --tw-border-opacity: 1;
-  border-color: rgb(138 204 80 / var(--tw-border-opacity));
+.hidden {
+  display: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
   background-image: url(../Images/teamlogo.png);
 }
 
+.bg-hero {
+  background-image: url('../images/win win.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.font-montserrat {
-  font-family: Montserrat, Helvetica;
-}
-
-.font-raleway {
-  font-family: raleway, Helvetica;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.font-\[700\] {
-  font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.text-primary-green {
-  --tw-text-opacity: 1;
-  color: rgb(138 204 80 / var(--tw-text-opacity));
+.font-roboto {
+  font-family: Roboto, sans-serif;
 }
 
 .text-white {
@@ -661,10 +637,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.opacity-80 {
+  opacity: 0.8;
 }
 
 @font-face {
@@ -685,46 +659,16 @@ video {
   src: url('../fonts/Montserrat.ttf');
 }
 
-@media (min-width: 640px) {
-  .sm\:pt-28 {
-    padding-top: 7rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:w-\[80\%\] {
-    width: 80%;
+  .lg\:flex {
+    display: flex;
   }
 
-  .lg\:pt-32 {
-    padding-top: 8rem;
+  .lg\:hidden {
+    display: none;
   }
 
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:text-\[20px\] {
-    font-size: 20px;
-  }
-
-  .lg\:text-\[36px\] {
-    font-size: 36px;
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 }
