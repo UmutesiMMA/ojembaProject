@@ -1191,3 +1191,9 @@ video {
     width: 60%;
   }
 }
+
+@media (min-width: 1536px) {
+  .\32xl\:w-\[55\%\] {
+    width: 55%;
+  }
+}
