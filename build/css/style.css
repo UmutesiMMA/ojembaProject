@@ -681,6 +681,12 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .bg-\[url\(\'\.\.\/Images\/BG_Founder\.svg\'\)\] {
   background-image: url('../Images/BG_Founder.svg');
 }
@@ -906,8 +912,32 @@ video {
     margin-right: -3.5rem;
   }
 
+  .md\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:ml-28 {
+    margin-left: 7rem;
+  }
+
+  .md\:-mr-20 {
+    margin-right: -5rem;
+  }
+
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[75\%\] {
+    width: 75%;
   }
 
   .md\:flex-row {
@@ -926,6 +956,14 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
   }
 
   .md\:text-4xl {
@@ -993,7 +1031,107 @@ video {
     margin-top: 3.5rem;
   }
 
+  .xl\:-mt-52 {
+    margin-top: -13rem;
+  }
+
+  .xl\:-mt-56 {
+    margin-top: -14rem;
+  }
+
+  .xl\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .xl\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
+  .xl\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .xl\:-mt-0 {
+    margin-top: -0px;
+  }
+
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .xl\:-ml-16 {
+    margin-left: -4rem;
+  }
+
+  .xl\:-ml-14 {
+    margin-left: -3.5rem;
+  }
+
+  .xl\:-ml-8 {
+    margin-left: -2rem;
+  }
+
+  .xl\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .xl\:-mt-\[14\.5rem\] {
+    margin-top: -14.5rem;
+  }
+
+  .xl\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .xl\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .xl\:-mr-28 {
+    margin-right: -7rem;
+  }
+
+  .xl\:-mr-36 {
+    margin-right: -9rem;
+  }
+
+  .xl\:-mr-40 {
+    margin-right: -10rem;
+  }
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .xl\:-mr-44 {
+    margin-right: -11rem;
+  }
+
+  .xl\:-ml-0 {
+    margin-left: -0px;
+  }
+
+  .xl\:-ml-6 {
+    margin-left: -1.5rem;
+  }
+
+  .xl\:-ml-24 {
+    margin-left: -6rem;
+  }
+
   .xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .xl\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .xl\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .xl\:w-\[60\%\] {
+    width: 60%;
   }
 }
