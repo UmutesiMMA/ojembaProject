@@ -1193,7 +1193,15 @@ video {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:ml-0 {
+    margin-left: 0px;
+  }
+
   .\32xl\:w-\[55\%\] {
     width: 55%;
+  }
+
+  .\32xl\:w-\[50\%\] {
+    width: 50%;
   }
 }
