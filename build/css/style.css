@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,10 +191,6 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -342,14 +338,6 @@ ul,
 menu {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-
-/*
-Reset default styling for dialogs.
-*/
-
-dialog {
   padding: 0;
 }
 
@@ -534,10 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-
-.bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
-  background-image: url(../Images/teamlogo.png);
-}
 .container {
   width: 100%;
   margin-right: auto;
@@ -585,6 +569,31 @@ video {
   max-width: 1928px;
 }
 
+.relative {
+  position: relative;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-mt-\[68px\] {
+  margin-top: -68px;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -593,8 +602,48 @@ video {
   display: none;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.w-full {
+  width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.max-w-\[60px\] {
+  max-width: 60px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[2\] {
+  max-width: 2;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
+.max-w-\[180px\] {
+  max-width: 180px;
+}
+
+.max-w-\[190px\] {
+  max-width: 190px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -605,44 +654,9 @@ video {
   justify-content: space-between;
 }
 
-.gap-x-12 {
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
-}
-
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
-}
-
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
-}
-
-.gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-x-28 {
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
-}
-
-.gap-x-3 {
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
-}
-
-.gap-x-32 {
-  -moz-column-gap: 8rem;
-       column-gap: 8rem;
 }
 
 .gap-x-20 {
@@ -650,20 +664,32 @@ video {
        column-gap: 5rem;
 }
 
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
+.bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
+  background-image: url(../Images/teamlogo.png);
+}
+
 .bg-hero {
   background-image: url('../images/win win.png');
-
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-
-.text-primary-green {
-  --tw-text-opacity: 1;
-  color: rgb(138 204 80 / var(--tw-text-opacity));
-}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -673,24 +699,34 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-roboto {
   font-family: Roboto, sans-serif;
 }
 
-.font-light {
-  font-weight: 300;
+.font-raleway {
+  font-family: raleway, Helvetica;
 }
 
-.font-extralight {
-  font-weight: 200;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .text-white {
@@ -698,17 +734,13 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.opacity-40 {
-  opacity: 0.4;
+.text-primary-green {
+  --tw-text-opacity: 1;
+  color: rgb(138 204 80 / var(--tw-text-opacity));
 }
 
 .opacity-80 {
   opacity: 0.8;
-
 }
 
 @font-face {
@@ -727,5 +759,89 @@ video {
   font-family: 'Montserrat';
 
   src: url('../fonts/Montserrat.ttf');
-  
+}
+
+@media (min-width: 768px) {
+  .md\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:max-w-\[180px\] {
+    max-width: 180px;
+  }
+
+  .md\:max-w-\[200px\] {
+    max-width: 200px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-x-32 {
+    -moz-column-gap: 8rem;
+         column-gap: 8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
+  }
+
+  .xl\:top-\[37\%\] {
+    top: 37%;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:min-h-\[500px\] {
+    min-height: 500px;
+  }
+
+  .xl\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xl\:transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
 }
