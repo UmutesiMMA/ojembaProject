@@ -607,6 +607,23 @@ video {
        column-gap: 5rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-primary-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(138 204 80 / var(--tw-border-opacity));
+}
+
 .bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
   background-image: url(../Images/teamlogo.png);
 }
@@ -628,13 +645,41 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .font-roboto {
   font-family: Roboto, sans-serif;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
+}
+
+.font-\[7\] {
+  font-weight: 7;
+}
+
+.font-\[700\] {
+  font-weight: 700;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .opacity-80 {
