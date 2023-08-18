@@ -1261,6 +1261,10 @@ video {
     margin-top: 4rem;
   }
 
+  .\32xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .\32xl\:w-\[55\%\] {
     width: 55%;
   }
