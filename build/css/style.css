@@ -1197,11 +1197,19 @@ video {
     margin-left: 0px;
   }
 
+  .\32xl\:-mt-\[15\.5rem\] {
+    margin-top: -15.5rem;
+  }
+
   .\32xl\:w-\[55\%\] {
     width: 55%;
   }
 
   .\32xl\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .\32xl\:w-\[60\%\] {
+    width: 60%;
   }
 }
