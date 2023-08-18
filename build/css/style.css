@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,10 +191,6 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -342,14 +338,6 @@ ul,
 menu {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-
-/*
-Reset default styling for dialogs.
-*/
-
-dialog {
   padding: 0;
 }
 
@@ -534,10 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-
-.bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
-  background-image: url(../Images/teamlogo.png);
-}
 .container {
   width: 100%;
   margin-right: auto;
@@ -593,10 +577,6 @@ video {
   display: none;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .items-center {
   align-items: center;
 }
@@ -605,44 +585,9 @@ video {
   justify-content: space-between;
 }
 
-.gap-x-12 {
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
-}
-
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
-}
-
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
-}
-
-.gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-x-28 {
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
-}
-
-.gap-x-3 {
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
-}
-
-.gap-x-32 {
-  -moz-column-gap: 8rem;
-       column-gap: 8rem;
 }
 
 .gap-x-20 {
@@ -650,20 +595,18 @@ video {
        column-gap: 5rem;
 }
 
+.bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
+  background-image: url(../Images/teamlogo.png);
+}
+
 .bg-hero {
   background-image: url('../images/win win.png');
-
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-
-.text-primary-green {
-  --tw-text-opacity: 1;
-  color: rgb(138 204 80 / var(--tw-text-opacity));
-}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -677,38 +620,13 @@ video {
   font-family: Roboto, sans-serif;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
-.font-extralight {
-  font-weight: 200;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
 .opacity-80 {
   opacity: 0.8;
-
 }
 
 @font-face {
@@ -727,5 +645,18 @@ video {
   font-family: 'Montserrat';
 
   src: url('../fonts/Montserrat.ttf');
-  
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
 }
