@@ -1233,6 +1233,10 @@ video {
     margin-top: -17.4rem;
   }
 
+  .\32xl\:-mt-\[17rem\] {
+    margin-top: -17rem;
+  }
+
   .\32xl\:w-\[55\%\] {
     width: 55%;
   }
