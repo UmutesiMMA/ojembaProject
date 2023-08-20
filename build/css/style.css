@@ -828,6 +828,14 @@ video {
   font-weight: 600;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
 .text-\[\#001342\] {
   --tw-text-opacity: 1;
   color: rgb(0 19 66 / var(--tw-text-opacity));
