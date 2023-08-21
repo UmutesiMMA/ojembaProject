@@ -573,20 +573,8 @@ video {
   margin: 0px;
 }
 
-.-mt-\[8\.4rem\] {
-  margin-top: -8.4rem;
-}
-
-.-mt-\[9\.4rem\] {
-  margin-top: -9.4rem;
-}
-
 .-mt-\[9\.8rem\] {
   margin-top: -9.8rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-16 {
@@ -696,14 +684,6 @@ video {
   padding-top: 9rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -800,16 +780,16 @@ video {
     margin-top: -12rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:ml-4 {
     margin-left: 1rem;
   }
 
   .md\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .md\:w-\[80\%\] {
