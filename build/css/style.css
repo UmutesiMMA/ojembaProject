@@ -664,14 +664,6 @@ video {
   width: 340px;
 }
 
-.min-w-\[340px\] {
-  min-width: 340px;
-}
-
-.min-w-full {
-  min-width: 100%;
-}
-
 .max-w-\[800px\] {
   max-width: 800px;
 }
@@ -684,16 +676,8 @@ video {
   flex-direction: column;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -720,20 +704,8 @@ video {
        column-gap: 2rem;
 }
 
-.gap-y-1 {
-  row-gap: 0.25rem;
-}
-
 .gap-y-12 {
   row-gap: 3rem;
-}
-
-.gap-y-11 {
-  row-gap: 2.75rem;
-}
-
-.text-clip {
-  text-overflow: clip;
 }
 
 .break-words {
@@ -818,11 +790,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -843,11 +810,6 @@ video {
 .text-\[\#116355\] {
   --tw-text-opacity: 1;
   color: rgb(17 99 85 / var(--tw-text-opacity));
-}
-
-.text-primary-green {
-  --tw-text-opacity: 1;
-  color: rgb(138 204 80 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -877,10 +839,6 @@ video {
   src: url('../fonts/Montserrat.ttf');
 }
 
-.first-letter\:w-\[340px\]::first-letter {
-  width: 340px;
-}
-
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -891,38 +849,10 @@ video {
   }
 }
 
-@media (max-width: 370px) {
-  .max-\[370px\]\:w-full {
-    width: 100%;
-  }
-}
-
-@media (max-width: 350px) {
-  .max-\[350px\]\:w-full {
-    width: 100%;
-  }
-}
-
-@media (max-width: 340px) {
-  .max-\[340px\]\:w-full {
-    width: 100%;
-  }
-}
-
-@media (min-width: 340px) {
-  .min-\[340px\]\:w-full {
-    width: 100%;
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-
-  .sm\:min-w-\[340px\] {
-    min-width: 340px;
   }
 
   .sm\:flex-row {
