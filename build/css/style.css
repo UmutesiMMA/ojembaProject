@@ -680,6 +680,22 @@ video {
   background-image: url(../Images/bgteam.png);
 }
 
+.bg-\[url\(\/buil\/Images\/bgteam\.png\)\] {
+  background-image: url(/buil/Images/bgteam.png);
+}
+
+.bg-\[url\(builf\/Images\/bgteam\.png\)\] {
+  background-image: url(builf/Images/bgteam.png);
+}
+
+.bg-\[url\(build\/Images\/bgteam\.png\)\] {
+  background-image: url(build/Images/bgteam.png);
+}
+
+.bg-\[url\(\/\/Images\/bgteam\.png\)\] {
+  background-image: url(//Images/bgteam.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
