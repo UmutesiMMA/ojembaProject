@@ -676,6 +676,10 @@ video {
   background-image: url('../images/win win.png');
 }
 
+.bg-\[url\(\.\.\/Images\/bgteam\.png\)\] {
+  background-image: url(../Images/bgteam.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
