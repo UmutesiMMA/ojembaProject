@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         'primary-green': '#8ACC50',
       },
+      backgroundImage: {
+        'hero': "url('../images/win win.png')"
+      }
     },
     fontFamily: {
       'roboto': 'Roboto, sans-serif',
