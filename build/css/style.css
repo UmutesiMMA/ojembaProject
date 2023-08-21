@@ -688,6 +688,10 @@ video {
   font-family: Roboto, sans-serif;
 }
 
+.font-montserrat {
+  font-family: Montserrat, Helvetica;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -749,6 +753,10 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
   }
 
   .md\:text-\[50px\] {
