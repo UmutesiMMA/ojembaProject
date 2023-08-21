@@ -696,6 +696,26 @@ video {
   background-image: url(//Images/bgteam.png);
 }
 
+.bg-\[url\(Images\/bgteam\.png\)\] {
+  background-image: url(Images/bgteam.png);
+}
+
+.bg-\[url\(\/\'\'\)\] {
+  background-image: url(/'');
+}
+
+.bg-\[url\(\"Images\/bgteam\.png\"\)\] {
+  background-image: url("Images/bgteam.png");
+}
+
+.bg-\[url\(\'Images\/bgteam\.png\'\)\] {
+  background-image: url('Images/bgteam.png');
+}
+
+.bg-\[url\(\'\.\.\/Images\/bgteam\.png\'\)\] {
+  background-image: url('../Images/bgteam.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -924,6 +944,10 @@ video {
     bottom: 7rem;
   }
 
+  .md\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1075,6 +1099,10 @@ video {
     padding-bottom: 7rem;
   }
 
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1082,6 +1110,11 @@ video {
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
