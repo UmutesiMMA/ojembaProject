@@ -1122,6 +1122,10 @@ video {
     height: 60%;
   }
 
+  .lg\:h-3\/4 {
+    height: 75%;
+  }
+
   .lg\:w-16 {
     width: 4rem;
   }
