@@ -721,6 +721,10 @@ video {
   height: 0.24rem;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .w-11 {
   width: 2.75rem;
 }
@@ -1137,6 +1141,10 @@ video {
 
   .lg\:h-60 {
     height: 15rem;
+  }
+
+  .lg\:h-\[100vh\] {
+    height: 100vh;
   }
 
   .lg\:w-16 {
