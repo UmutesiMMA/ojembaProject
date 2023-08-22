@@ -644,6 +644,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -706,6 +710,11 @@ video {
 
 .gap-y-12 {
   row-gap: 3rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
 }
 
 .break-words {
@@ -853,6 +862,10 @@ video {
   .sm\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .sm\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .sm\:flex-row {
