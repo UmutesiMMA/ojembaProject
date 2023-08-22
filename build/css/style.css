@@ -1089,6 +1089,10 @@ video {
     top: 6rem;
   }
 
+  .lg\:top-28 {
+    top: 7rem;
+  }
+
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1096,6 +1100,10 @@ video {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
   }
 
   .lg\:block {
