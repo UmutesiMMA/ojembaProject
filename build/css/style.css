@@ -659,6 +659,44 @@ video {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.max-h-\[80\%\] {
+  max-height: 80%;
+}
+
+.max-h-\[100\%\] {
+  max-height: 100%;
+}
+
+.min-h-0 {
+  min-height: 0px;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-max {
+  min-height: -moz-max-content;
+  min-height: max-content;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[80\%\] {
+  min-height: 80%;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -685,6 +723,56 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[100\%\] {
+  min-width: 100%;
+}
+
+.min-w-max {
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-min {
+  min-width: -moz-min-content;
+  min-width: min-content;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
+
+.max-w-prose {
+  max-width: 65ch;
+}
+
+.max-w-\[900vw\] {
+  max-width: 900vw;
+}
+
+.max-w-\[100\] {
+  max-width: 100;
+}
+
+.max-w-\[100vh\] {
+  max-width: 100vh;
+}
+
+.max-w-\[\] {
+  max-width: ;
 }
 
 .list-none {
@@ -857,8 +945,20 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.bg-repeat-x {
+  background-repeat: repeat-x;
 }
 
 .py-5 {
@@ -1005,6 +1105,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:mr-44 {
     margin-right: 11rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .lg\:flex {
