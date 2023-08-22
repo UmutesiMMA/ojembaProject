@@ -881,6 +881,10 @@ video {
   background-image: url(../Images/bg-rectangle.png);
 }
 
+.bg-\[url\(\'\.\.\/Images\/iconic\.png\'\)\] {
+  background-image: url('../Images/iconic.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1100,6 +1104,10 @@ video {
 
   .lg\:h-\[13\.6rem\] {
     height: 13.6rem;
+  }
+
+  .lg\:h-3\/5 {
+    height: 60%;
   }
 
   .lg\:w-16 {
