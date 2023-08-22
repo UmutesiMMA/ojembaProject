@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,6 +191,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -338,6 +342,14 @@ ul,
 menu {
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
   padding: 0;
 }
 
@@ -569,12 +581,44 @@ video {
   max-width: 1928px;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-2\/5 {
+  width: 40%;
 }
 
 .items-center {
@@ -595,12 +639,101 @@ video {
        column-gap: 5rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-red-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 202 202 / var(--tw-border-opacity));
+}
+
+.bg-\[url\(\.\.\/Images\/bg_footer\)\] {
+  background-image: url(../Images/bg_footer);
+}
+
 .bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
   background-image: url(../Images/teamlogo.png);
 }
 
 .bg-hero {
   background-image: url('../images/win win.png');
+}
+
+.bg-\[url\(b\/Images\/bg_footer\)\] {
+  background-image: url(b/Images/bg_footer);
+}
+
+.bg-\[url\(\/Images\/bg_footer\)\] {
+  background-image: url(/Images/bg_footer);
+}
+
+.bg-\[url\(\/\/Images\/bg_footer\)\] {
+  background-image: url(//Images/bg_footer);
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\/bu\)\] {
+  background-image: url(/bu);
+}
+
+.bg-\[url\(\.\.\)\] {
+  background-image: url(..);
+}
+
+.bg-\[url\(\.\.\/\)\] {
+  background-image: url(../);
+}
+
+.bg-\[url\(\.\.\/Image\)\] {
+  background-image: url(../Image);
+}
+
+.bg-\[url\(\.\.\/Images\)\] {
+  background-image: url(../Images);
+}
+
+.bg-\[url\(\.\.\/Images\/\)\] {
+  background-image: url(../Images/);
+}
+
+.bg-\[url\(\.\.\/Images\/bg\)\] {
+  background-image: url(../Images/bg);
+}
+
+.bg-\[url\(\.\.\/Images\/bg_\)\] {
+  background-image: url(../Images/bg_);
+}
+
+.bg-\[url\(\.\.\/Images\/bg_foo\)\] {
+  background-image: url(../Images/bg_foo);
+}
+
+.bg-\[url\(\.\.\/Images\/bg_footer\.\)\] {
+  background-image: url(../Images/bg_footer.);
+}
+
+.bg-\[url\(\.\.\/Images\/bg_footer\.png\)\] {
+  background-image: url(../Images/bg_footer.png);
+}
+
+.bg-\[url\(\/Images\/bg_footer\.png\)\] {
+  background-image: url(/Images/bg_footer.png);
+}
+
+.bg-\[url\(\/\/Images\/bg_footer\.png\)\] {
+  background-image: url(//Images/bg_footer.png);
+}
+
+.bg-\[url\(\/build\/Images\/bg_footer\.png\)\] {
+  background-image: url(/build/Images/bg_footer.png);
 }
 
 .bg-cover {
@@ -614,6 +747,54 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
 }
 
 .font-roboto {
