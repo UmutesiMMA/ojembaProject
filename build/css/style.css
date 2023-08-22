@@ -1085,6 +1085,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
