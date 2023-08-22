@@ -569,15 +569,6 @@ video {
   max-width: 1928px;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -586,20 +577,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -608,10 +587,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .w-\[340px\] {
@@ -653,11 +628,6 @@ video {
        column-gap: 5rem;
 }
 
-.gap-x-8 {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-}
-
 .gap-y-12 {
   row-gap: 3rem;
 }
@@ -668,17 +638,8 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.break-words {
-  overflow-wrap: break-word;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
-}
-
-.border-\[\#116355\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(17 99 85 / var(--tw-border-opacity));
 }
 
 .border-primary-green {
@@ -702,18 +663,9 @@ video {
   background-repeat: no-repeat;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pr-2 {
@@ -740,36 +692,13 @@ video {
   font-family: Roboto, sans-serif;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-semibold {
   font-weight: 600;
-}
-
-.text-\[\#116355\] {
-  --tw-text-opacity: 1;
-  color: rgb(17 99 85 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -799,10 +728,6 @@ video {
   src: url('../fonts/Montserrat.ttf');
 }
 
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
-}
-
 @media (max-width: 374px) {
   .max-\[374px\]\:w-full {
     width: 100%;
@@ -810,17 +735,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:items-end {
-    align-items: flex-end;
   }
 
   .sm\:justify-center {
