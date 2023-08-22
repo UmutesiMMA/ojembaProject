@@ -581,10 +581,6 @@ video {
   max-width: 1928px;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -597,26 +593,6 @@ video {
   bottom: 0px;
 }
 
-.right-\[\] {
-  right: ;
-}
-
-.right-\[50\] {
-  right: 50;
-}
-
-.right-\[50\%\] {
-  right: 50%;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .flex {
   display: flex;
 }
@@ -627,14 +603,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-w-full {
-  min-width: 100%;
 }
 
 .grid-cols-1 {
@@ -719,8 +687,8 @@ video {
   padding-bottom: 8rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-36 {
@@ -731,16 +699,8 @@ video {
   padding-top: 10rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.align-top {
-  vertical-align: top;
-}
-
-.align-middle {
-  vertical-align: middle;
+.font-montserrat {
+  font-family: Montserrat, Helvetica;
 }
 
 .font-raleway {
@@ -749,10 +709,6 @@ video {
 
 .font-roboto {
   font-family: Roboto, sans-serif;
-}
-
-.font-montserrat {
-  font-family: Montserrat, Helvetica;
 }
 
 .text-2xl {
@@ -921,18 +877,6 @@ video {
 @media (min-width: 1280px) {
   .xl\:mt-96 {
     margin-top: 24rem;
-  }
-
-  .xl\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .xl\:pt-96 {
-    padding-top: 24rem;
-  }
-
-  .xl\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .xl\:pt-60 {
