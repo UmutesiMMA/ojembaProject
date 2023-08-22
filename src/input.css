@@ -22,4 +22,8 @@
     .container {
         @apply w-full max-w-[1928px]
     }
+
+    .qa-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
 }
