@@ -1147,6 +1147,18 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .lg\:h-\[30vh\] {
+    height: 30vh;
+  }
+
+  .lg\:h-\[38vh\] {
+    height: 38vh;
+  }
+
   .lg\:w-16 {
     width: 4rem;
   }
