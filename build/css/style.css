@@ -1135,6 +1135,10 @@ video {
     height: 14rem;
   }
 
+  .lg\:h-60 {
+    height: 15rem;
+  }
+
   .lg\:w-16 {
     width: 4rem;
   }
