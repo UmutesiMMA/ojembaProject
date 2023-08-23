@@ -1350,6 +1350,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:place-content-start {
+    place-content: start;
+  }
+
   .lg\:bg-none {
     background-image: none;
   }
