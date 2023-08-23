@@ -615,8 +615,21 @@ video {
   content: var(--tw-content);
 }
 
+.relative {
+  position: relative;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .m-0 {
   margin: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-10 {
@@ -694,6 +707,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[21\.5rem\] {
+  width: 21.5rem;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .max-w-\[800px\] {
@@ -991,14 +1028,9 @@ video {
   src: url('../fonts/Montserrat.ttf');
 }
 
-.before\:left-2\/3::before {
+.before\:-bottom-\[0\.14px\]::before {
   content: var(--tw-content);
-  left: 66.666667%;
-}
-
-.before\:left-\[60\%\]::before {
-  content: var(--tw-content);
-  left: 60%;
+  bottom: -0.14px;
 }
 
 .before\:left-\[58\%\]::before {
@@ -1006,77 +1038,15 @@ video {
   left: 58%;
 }
 
-.before\:-bottom-\[1px\]::before {
+.before\:-z-10::before {
   content: var(--tw-content);
-  bottom: -1px;
-}
-
-.before\:-bottom-\[0\.3px\]::before {
-  content: var(--tw-content);
-  bottom: -0.3px;
-}
-
-.before\:-bottom-\[0\.1px\]::before {
-  content: var(--tw-content);
-  bottom: -0.1px;
-}
-
-.before\:-bottom-\[0\.2px\]::before {
-  content: var(--tw-content);
-  bottom: -0.2px;
-}
-
-.before\:-bottom-\[0\.15px\]::before {
-  content: var(--tw-content);
-  bottom: -0.15px;
-}
-
-.before\:-bottom-\[0\.13px\]::before {
-  content: var(--tw-content);
-  bottom: -0.13px;
-}
-
-.before\:-bottom-\[0\.14px\]::before {
-  content: var(--tw-content);
-  bottom: -0.14px;
-}
-
-.before\:h-1::before {
-  content: var(--tw-content);
-  height: 0.25rem;
-}
-
-.before\:h-\[0\.35rem\]::before {
-  content: var(--tw-content);
-  height: 0.35rem;
-}
-
-.before\:h-\[0\.4rem\]::before {
-  content: var(--tw-content);
-  height: 0.4rem;
-}
-
-.before\:-rotate-\[0\.9deg\]::before {
-  content: var(--tw-content);
-  --tw-rotate: -0.9deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:-rotate-\[1\.2deg\]::before {
-  content: var(--tw-content);
-  --tw-rotate: -1.2deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  z-index: -10;
 }
 
 .before\:-rotate-\[2deg\]::before {
   content: var(--tw-content);
   --tw-rotate: -2deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:opacity-80::before {
-  content: var(--tw-content);
-  opacity: 0.8;
 }
 
 .before\:opacity-70::before {
@@ -1163,6 +1133,50 @@ video {
     width: 90%;
   }
 
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .md\:w-\[25rem\] {
+    width: 25rem;
+  }
+
+  .md\:w-\[95\%\] {
+    width: 95%;
+  }
+
+  .md\:w-\[35rem\] {
+    width: 35rem;
+  }
+
+  .md\:w-\[45rem\] {
+    width: 45rem;
+  }
+
+  .md\:w-\[65rem\] {
+    width: 65rem;
+  }
+
+  .md\:w-\[80\] {
+    width: 80;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-\[33rem\] {
+    width: 33rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1193,6 +1207,11 @@ video {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1212,10 +1231,6 @@ video {
     margin-right: 28rem;
   }
 
-  .lg\:mr-\[35rem\] {
-    margin-right: 35rem;
-  }
-
   .lg\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -1228,8 +1243,16 @@ video {
     display: none;
   }
 
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:w-\[13\.5rem\] {
     width: 13.5rem;
+  }
+
+  .lg\:w-\[55\%\] {
+    width: 55%;
   }
 
   .lg\:w-\[75\%\] {
@@ -1238,6 +1261,10 @@ video {
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[95\%\] {
+    width: 95%;
   }
 
   .lg\:flex-row {
