@@ -857,6 +857,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-red-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
 .bg-primary-green {
   --tw-bg-opacity: 1;
   background-color: rgb(138 204 80 / var(--tw-bg-opacity));
@@ -1511,8 +1516,17 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+  .xl\:-translate-x-52 {
+    --tw-translate-x: -13rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .xl\:pl-24 {
     padding-left: 6rem;
+  }
+
+  .xl\:pl-28 {
+    padding-left: 7rem;
   }
 
   .xl\:text-xl {
