@@ -1275,6 +1275,18 @@ video {
     width: 60%;
   }
 
+  .xl\:w-\[1\] {
+    width: 1;
+  }
+
+  .xl\:w-\[100\] {
+    width: 100;
+  }
+
+  .xl\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .xl\:pt-60 {
     padding-top: 15rem;
   }
