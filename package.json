@@ -4,6 +4,7 @@
   "description": "![](https://img.shields.io/badge/OjembaProject-blueviolet)",
   "main": "build/",
   "scripts": {
+    "test": "tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
     "start": "tailwindcss -i ./src/input.css -o ./build/css/style.css"
   },
   "author": "",
