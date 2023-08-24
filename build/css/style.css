@@ -817,6 +817,18 @@ video {
   height: 100vh;
 }
 
+.h-\[10\.\] {
+  height: 10.;
+}
+
+.h-\[10\.6re\] {
+  height: 10.6re;
+}
+
+.h-\[10\.6rem\] {
+  height: 10.6rem;
+}
+
 .w-11 {
   width: 2.75rem;
 }
@@ -984,6 +996,11 @@ video {
 
 .-translate-y-48 {
   --tw-translate-y: -12rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-80 {
+  --tw-translate-y: -20rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
