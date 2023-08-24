@@ -1,0 +1,14 @@
+{
+  "name": "ojembaproject",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/OjembaProject-blueviolet)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "tailwindcss -i ./src/input.css -o ./build/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
