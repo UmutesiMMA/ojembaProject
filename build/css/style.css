@@ -1845,6 +1845,10 @@ video {
     margin-top: 2rem;
   }
 
+  .md\:-mt-56 {
+    margin-top: -14rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1960,6 +1964,11 @@ video {
 
   .md\:-translate-y-56 {
     --tw-translate-y: -14rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:-translate-y-48 {
+    --tw-translate-y: -12rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
