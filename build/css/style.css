@@ -639,7 +639,6 @@ video {
   content: var(--tw-content);
 }
 
-<<<<<<< HEAD
 .removeSlide {
   margin: 0px;
   height: 100%;
@@ -648,8 +647,6 @@ video {
   padding: 0px;
 }
 
-=======
->>>>>>> 25a5f4b21372d48f06b17ede077a1a3021f16660
 .absolute {
   position: absolute;
 }
@@ -2249,9 +2246,5 @@ video {
   .\32xl\:pt-36 {
     padding-top: 9rem;
   }
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> 25a5f4b21372d48f06b17ede077a1a3021f16660
