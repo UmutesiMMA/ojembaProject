@@ -2,7 +2,7 @@
   "name": "ojembaproject",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/OjembaProject-blueviolet)",
-  "main": "tailwind.config.js",
+  "main": "build/",
   "scripts": {
     "start": "tailwindcss -i ./src/input.css -o ./build/css/style.css"
   },
