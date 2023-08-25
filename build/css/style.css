@@ -639,7 +639,6 @@ video {
   content: var(--tw-content);
 }
 
-<<<<<<< HEAD
 .removeSlide {
   margin: 0px;
   height: 100%;
@@ -648,8 +647,6 @@ video {
   padding: 0px;
 }
 
-=======
->>>>>>> 25a5f4b21372d48f06b17ede077a1a3021f16660
 .absolute {
   position: absolute;
 }
@@ -744,6 +741,10 @@ video {
   margin-top: 2rem;
 }
 
+.-mt-48 {
+  margin-top: -12rem;
+}
+
 .block {
   display: block;
 }
@@ -784,8 +785,8 @@ video {
   height: 9rem;
 }
 
-.h-\[170px\] {
-  height: 170px;
+.h-\[10\.6rem\] {
+  height: 10.6rem;
 }
 
 .h-\[70vh\] {
@@ -876,8 +877,18 @@ video {
   max-width: 800px;
 }
 
-.-translate-y-40 {
-  --tw-translate-y: -10rem;
+.-translate-y-20 {
+  --tw-translate-y: -5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-48 {
+  --tw-translate-y: -12rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-72 {
+  --tw-translate-y: -18rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1079,12 +1090,16 @@ video {
   background-image: url('../Images/bgteam.png');
 }
 
+.bg-\[url\(\'\.\.\/Images\/bgteam\.webp\'\)\] {
+  background-image: url('../Images/bgteam.webp');
+}
+
 .bg-\[url\(\'\.\.\/Images\/iconic\.png\'\)\] {
   background-image: url('../Images/iconic.png');
 }
 
-.bg-\[url\(\'\.\.\/Images\/my-background\.png\'\)\] {
-  background-image: url('../Images/my-background.png');
+.bg-\[url\(\'\.\.\/Images\/my-background\.webp\'\)\] {
+  background-image: url('../Images/my-background.webp');
 }
 
 .bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
@@ -1099,8 +1114,8 @@ video {
   background-image: url(../Images/bg-rectangle.png);
 }
 
-.bg-\[url\(\.\.\/Images\/bg_footer\.png\)\] {
-  background-image: url(../Images/bg_footer.png);
+.bg-\[url\(\.\.\/Images\/bg_footer\.webp\)\] {
+  background-image: url(../Images/bg_footer.webp);
 }
 
 .bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
@@ -1109,6 +1124,98 @@ video {
 
 .bg-hero {
   background-image: url('../images/win win.png');
+}
+
+.bg-\[url\(\'\.\.\/Images\'\)\] {
+  background-image: url('../Images');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qua\'\)\] {
+  background-image: url('../Images/qua');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\'\)\] {
+  background-image: url('../Images/qualitat');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\.we\'\)\] {
+  background-image: url('../Images/qualitat.we');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\.webp\'\)\] {
+  background-image: url('../Images/qualitat.webp');
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\)\] {
+  background-image: url(../Images/BG_partners);
+}
+
+.bg-\[url\(\.\.\/Images\/B\)\] {
+  background-image: url(../Images/B);
+}
+
+.bg-\[url\(\.\.\/Images\)\] {
+  background-image: url(../Images);
+}
+
+.bg-\[url\(\.\.\/Images\/\)\] {
+  background-image: url(../Images/);
+}
+
+.bg-\[url\(\.\.\/Images\/BG\)\] {
+  background-image: url(../Images/BG);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_\)\] {
+  background-image: url(../Images/BG_);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.\)\] {
+  background-image: url(../Images/BG_partners.);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.web\)\] {
+  background-image: url(../Images/BG_partners.web);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.webp\)\] {
+  background-image: url(../Images/BG_partners.webp);
+}
+
+.bg-\[url\(\.\.\/Images\/tesm\)\] {
+  background-image: url(../Images/tesm);
+}
+
+.bg-\[url\(\.\.\/Images\/te\)\] {
+  background-image: url(../Images/te);
+}
+
+.bg-\[url\(\.\.\/Images\/team\)\] {
+  background-image: url(../Images/team);
+}
+
+.bg-\[url\(\.\.\/Images\/teamlogo\.webp\)\] {
+  background-image: url(../Images/teamlogo.webp);
+}
+
+.bg-\[url\(\.\.\/Images\/bg\)\] {
+  background-image: url(../Images/bg);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-re\)\] {
+  background-image: url(../Images/bg-re);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rect\)\] {
+  background-image: url(../Images/bg-rect);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rectangle\)\] {
+  background-image: url(../Images/bg-rectangle);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rectangle\.webp\)\] {
+  background-image: url(../Images/bg-rectangle.webp);
 }
 
 .bg-cover {
@@ -1230,16 +1337,16 @@ video {
   padding-bottom: 2.75rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-14 {
   padding-bottom: 3.5rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-3 {
@@ -1322,16 +1429,20 @@ video {
   padding-top: 10rem;
 }
 
-.pt-44 {
-  padding-top: 11rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .text-left {
@@ -1682,6 +1793,10 @@ video {
     margin-top: 2rem;
   }
 
+  .md\:-mt-56 {
+    margin-top: -14rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1768,6 +1883,16 @@ video {
 
   .md\:-translate-y-14 {
     --tw-translate-y: -3.5rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:-translate-y-56 {
+    --tw-translate-y: -14rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:-translate-y-\[7\.2rem\] {
+    --tw-translate-y: -7.2rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -2194,8 +2319,8 @@ video {
     padding-left: 7rem;
   }
 
-  .xl\:pt-60 {
-    padding-top: 15rem;
+  .xl\:pt-8 {
+    padding-top: 2rem;
   }
 
   .xl\:text-left {
@@ -2249,9 +2374,5 @@ video {
   .\32xl\:pt-36 {
     padding-top: 9rem;
   }
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> 25a5f4b21372d48f06b17ede077a1a3021f16660
