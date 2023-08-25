@@ -781,8 +781,8 @@ video {
   height: 9rem;
 }
 
-.h-\[170px\] {
-  height: 170px;
+.h-\[10\.6rem\] {
+  height: 10.6rem;
 }
 
 .h-\[70vh\] {
@@ -791,10 +791,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[10\.6rem\] {
-  height: 10.6rem;
 }
 
 .w-11 {
@@ -875,11 +871,6 @@ video {
 
 .max-w-\[800px\] {
   max-width: 800px;
-}
-
-.-translate-y-40 {
-  --tw-translate-y: -10rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-y-20 {
@@ -1095,12 +1086,16 @@ video {
   background-image: url('../Images/bgteam.png');
 }
 
+.bg-\[url\(\'\.\.\/Images\/bgteam\.webp\'\)\] {
+  background-image: url('../Images/bgteam.webp');
+}
+
 .bg-\[url\(\'\.\.\/Images\/iconic\.png\'\)\] {
   background-image: url('../Images/iconic.png');
 }
 
-.bg-\[url\(\'\.\.\/Images\/my-background\.png\'\)\] {
-  background-image: url('../Images/my-background.png');
+.bg-\[url\(\'\.\.\/Images\/my-background\.webp\'\)\] {
+  background-image: url('../Images/my-background.webp');
 }
 
 .bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
@@ -1115,8 +1110,8 @@ video {
   background-image: url(../Images/bg-rectangle.png);
 }
 
-.bg-\[url\(\.\.\/Images\/bg_footer\.png\)\] {
-  background-image: url(../Images/bg_footer.png);
+.bg-\[url\(\.\.\/Images\/bg_footer\.webp\)\] {
+  background-image: url(../Images/bg_footer.webp);
 }
 
 .bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
@@ -1125,98 +1120,6 @@ video {
 
 .bg-hero {
   background-image: url('../images/win win.png');
-}
-
-.bg-\[url\(\'\.\.\/Images\/\'\)\] {
-  background-image: url('../Images/');
-}
-
-.bg-\[url\(\'\.\.\/Images\/mu\'\)\] {
-  background-image: url('../Images/mu');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my\'\)\] {
-  background-image: url('../Images/my');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-\'\)\] {
-  background-image: url('../Images/my-');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-ba\'\)\] {
-  background-image: url('../Images/my-ba');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-background\'\)\] {
-  background-image: url('../Images/my-background');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-background\.\'\)\] {
-  background-image: url('../Images/my-background.');
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-background\.webp\'\)\] {
-  background-image: url('../Images/my-background.webp');
-}
-
-.bg-\[url\(\.\.\/Images\)\] {
-  background-image: url(../Images);
-}
-
-.bg-\[url\(\.\.\/Images\/\)\] {
-  background-image: url(../Images/);
-}
-
-.bg-\[url\(\.\.\/Images\/footer\)\] {
-  background-image: url(../Images/footer);
-}
-
-.bg-\[url\(\.\.\/Images\/footer\.\)\] {
-  background-image: url(../Images/footer.);
-}
-
-.bg-\[url\(\.\.\/Images\/footer\.webp\)\] {
-  background-image: url(../Images/footer.webp);
-}
-
-.bg-\[url\(\'\.\.\/Images\'\)\] {
-  background-image: url('../Images');
-}
-
-.bg-\[url\(\'\.\.\/Images\/bg\'\)\] {
-  background-image: url('../Images/bg');
-}
-
-.bg-\[url\(\'\.\.\/Images\/bgteam\'\)\] {
-  background-image: url('../Images/bgteam');
-}
-
-.bg-\[url\(\'\.\.\/Images\/bgteam\.webp\'\)\] {
-  background-image: url('../Images/bgteam.webp');
-}
-
-.bg-\[url\(\.\.\/Images\/bg\)\] {
-  background-image: url(../Images/bg);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-f\)\] {
-  background-image: url(../Images/bg-f);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-footer\)\] {
-  background-image: url(../Images/bg-footer);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-footer\.webp\)\] {
-  background-image: url(../Images/bg-footer.webp);
-}
-
-.bg-\[url\(\.\.\/Images\/bgfooter\.webp\)\] {
-  background-image: url(../Images/bgfooter.webp);
-}
-
-.bg-\[url\(\.\.\/Images\/bg_footer\.webp\)\] {
-  background-image: url(../Images/bg_footer.webp);
 }
 
 .bg-cover {
@@ -1338,16 +1241,16 @@ video {
   padding-bottom: 2.75rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-14 {
   padding-bottom: 3.5rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-3 {
@@ -1430,20 +1333,12 @@ video {
   padding-top: 10rem;
 }
 
-.pt-44 {
-  padding-top: 11rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -2314,10 +2209,6 @@ video {
 
   .xl\:pl-28 {
     padding-left: 7rem;
-  }
-
-  .xl\:pt-60 {
-    padding-top: 15rem;
   }
 
   .xl\:pt-8 {
