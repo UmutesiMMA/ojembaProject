@@ -1122,6 +1122,98 @@ video {
   background-image: url('../images/win win.png');
 }
 
+.bg-\[url\(\'\.\.\/Images\'\)\] {
+  background-image: url('../Images');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qua\'\)\] {
+  background-image: url('../Images/qua');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\'\)\] {
+  background-image: url('../Images/qualitat');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\.we\'\)\] {
+  background-image: url('../Images/qualitat.we');
+}
+
+.bg-\[url\(\'\.\.\/Images\/qualitat\.webp\'\)\] {
+  background-image: url('../Images/qualitat.webp');
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\)\] {
+  background-image: url(../Images/BG_partners);
+}
+
+.bg-\[url\(\.\.\/Images\/B\)\] {
+  background-image: url(../Images/B);
+}
+
+.bg-\[url\(\.\.\/Images\)\] {
+  background-image: url(../Images);
+}
+
+.bg-\[url\(\.\.\/Images\/\)\] {
+  background-image: url(../Images/);
+}
+
+.bg-\[url\(\.\.\/Images\/BG\)\] {
+  background-image: url(../Images/BG);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_\)\] {
+  background-image: url(../Images/BG_);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.\)\] {
+  background-image: url(../Images/BG_partners.);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.web\)\] {
+  background-image: url(../Images/BG_partners.web);
+}
+
+.bg-\[url\(\.\.\/Images\/BG_partners\.webp\)\] {
+  background-image: url(../Images/BG_partners.webp);
+}
+
+.bg-\[url\(\.\.\/Images\/tesm\)\] {
+  background-image: url(../Images/tesm);
+}
+
+.bg-\[url\(\.\.\/Images\/te\)\] {
+  background-image: url(../Images/te);
+}
+
+.bg-\[url\(\.\.\/Images\/team\)\] {
+  background-image: url(../Images/team);
+}
+
+.bg-\[url\(\.\.\/Images\/teamlogo\.webp\)\] {
+  background-image: url(../Images/teamlogo.webp);
+}
+
+.bg-\[url\(\.\.\/Images\/bg\)\] {
+  background-image: url(../Images/bg);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-re\)\] {
+  background-image: url(../Images/bg-re);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rect\)\] {
+  background-image: url(../Images/bg-rect);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rectangle\)\] {
+  background-image: url(../Images/bg-rectangle);
+}
+
+.bg-\[url\(\.\.\/Images\/bg-rectangle\.webp\)\] {
+  background-image: url(../Images/bg-rectangle.webp);
+}
+
 .bg-cover {
   background-size: cover;
 }
