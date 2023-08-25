@@ -1218,6 +1218,14 @@ video {
   background-image: url(../Images/bg-rectangle.webp);
 }
 
+.bg-\[url\(\.\.\/Images\/bg_footer\.png\)\] {
+  background-image: url(../Images/bg_footer.png);
+}
+
+.bg-\[url\(\'\.\.\/Images\/my-background\.png\'\)\] {
+  background-image: url('../Images/my-background.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
