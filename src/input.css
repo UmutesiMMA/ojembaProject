@@ -22,4 +22,24 @@
     .container {
         @apply w-full max-w-[1928px]
     }
+
+    .qa-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
+    .team-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
+
+    .managed-team-title {
+        @apply text-[#040404] opacity-50 font-bold text-lg mb-2
+    }
+
+    .before-underline {
+        @apply relative before:absolute before:left-1/2 before:transform before:-translate-x-1/2 before:-bottom-[2px]  before:-rotate-[4deg] before:content-[''] before:w-full before:px-1 before:box-content before:h-2 before:block before:bg-[#8ACC50] before:opacity-[0.3]
+    }
+
+    .removeSlide {
+       @apply w-full h-full m-0 p-0 overflow-x-hidden
+    }
 }
+
