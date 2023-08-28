@@ -685,6 +685,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.-mt-48 {
+  margin-top: -12rem;
+}
+
 .-mt-\[68px\] {
   margin-top: -68px;
 }
@@ -741,8 +745,44 @@ video {
   margin-top: 2rem;
 }
 
-.-mt-48 {
-  margin-top: -12rem;
+.-mt-\[40rem\] {
+  margin-top: -40rem;
+}
+
+.-mt-\[20rem\] {
+  margin-top: -20rem;
+}
+
+.-mt-\[60rem\] {
+  margin-top: -60rem;
+}
+
+.-mt-\[50rem\] {
+  margin-top: -50rem;
+}
+
+.-mt-\[30rem\] {
+  margin-top: -30rem;
+}
+
+.-mt-\[35rem\] {
+  margin-top: -35rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[10rem\] {
+  margin-bottom: 10rem;
+}
+
+.mt-\[10rem\] {
+  margin-top: 10rem;
 }
 
 .block {
@@ -795,6 +835,43 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[10\] {
+  height: 10;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[10rem\] {
+  min-height: 10rem;
+}
+
+.min-h-\[70rem\] {
+  min-height: 70rem;
+}
+
+.min-h-\[40rem\] {
+  min-height: 40rem;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 
 .w-11 {
@@ -889,6 +966,61 @@ video {
 
 .-translate-y-72 {
   --tw-translate-y: -18rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-5 {
+  --tw-translate-y: -1.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-52 {
+  --tw-translate-y: -13rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-2 {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-56 {
+  --tw-translate-y: -14rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-9 {
+  --tw-translate-y: -2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-7 {
+  --tw-translate-y: -1.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-6 {
+  --tw-translate-y: -1.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-64 {
+  --tw-translate-y: -16rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-96 {
+  --tw-translate-y: -24rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-\[96\] {
+  --tw-translate-y: -96;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-\[40rem\] {
+  --tw-translate-y: -40rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1046,6 +1178,10 @@ video {
   border-radius: 9999px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1062,6 +1198,11 @@ video {
 .border-primary-green {
   --tw-border-opacity: 1;
   border-color: rgb(138 204 80 / var(--tw-border-opacity));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[\#F4BA00\] {
@@ -1086,10 +1227,6 @@ video {
   background-image: url('../Images/bg_hero.png');
 }
 
-.bg-\[url\(\'\.\.\/Images\/bgteam\.png\'\)\] {
-  background-image: url('../Images/bgteam.png');
-}
-
 .bg-\[url\(\'\.\.\/Images\/bgteam\.webp\'\)\] {
   background-image: url('../Images/bgteam.webp');
 }
@@ -1102,132 +1239,40 @@ video {
   background-image: url('../Images/my-background.webp');
 }
 
-.bg-\[url\(\'\.\.\/Images\/qualitat\.png\'\)\] {
-  background-image: url('../Images/qualitat.png');
-}
-
-.bg-\[url\(\.\.\/Images\/BG_partners\.png\)\] {
-  background-image: url(../Images/BG_partners.png);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-rectangle\.png\)\] {
-  background-image: url(../Images/bg-rectangle.png);
-}
-
-.bg-\[url\(\.\.\/Images\/bg_footer\.webp\)\] {
-  background-image: url(../Images/bg_footer.webp);
-}
-
-.bg-\[url\(\.\.\/Images\/teamlogo\.png\)\] {
-  background-image: url(../Images/teamlogo.png);
-}
-
-.bg-hero {
-  background-image: url('../images/win win.png');
-}
-
-.bg-\[url\(\'\.\.\/Images\'\)\] {
-  background-image: url('../Images');
-}
-
-.bg-\[url\(\'\.\.\/Images\/qua\'\)\] {
-  background-image: url('../Images/qua');
-}
-
-.bg-\[url\(\'\.\.\/Images\/qualitat\'\)\] {
-  background-image: url('../Images/qualitat');
-}
-
-.bg-\[url\(\'\.\.\/Images\/qualitat\.we\'\)\] {
-  background-image: url('../Images/qualitat.we');
-}
-
 .bg-\[url\(\'\.\.\/Images\/qualitat\.webp\'\)\] {
   background-image: url('../Images/qualitat.webp');
-}
-
-.bg-\[url\(\.\.\/Images\/BG_partners\)\] {
-  background-image: url(../Images/BG_partners);
-}
-
-.bg-\[url\(\.\.\/Images\/B\)\] {
-  background-image: url(../Images/B);
-}
-
-.bg-\[url\(\.\.\/Images\)\] {
-  background-image: url(../Images);
-}
-
-.bg-\[url\(\.\.\/Images\/\)\] {
-  background-image: url(../Images/);
-}
-
-.bg-\[url\(\.\.\/Images\/BG\)\] {
-  background-image: url(../Images/BG);
-}
-
-.bg-\[url\(\.\.\/Images\/BG_\)\] {
-  background-image: url(../Images/BG_);
-}
-
-.bg-\[url\(\.\.\/Images\/BG_partners\.\)\] {
-  background-image: url(../Images/BG_partners.);
-}
-
-.bg-\[url\(\.\.\/Images\/BG_partners\.web\)\] {
-  background-image: url(../Images/BG_partners.web);
 }
 
 .bg-\[url\(\.\.\/Images\/BG_partners\.webp\)\] {
   background-image: url(../Images/BG_partners.webp);
 }
 
-.bg-\[url\(\.\.\/Images\/tesm\)\] {
-  background-image: url(../Images/tesm);
+.bg-\[url\(\.\.\/Images\/bg-rectangle\.webp\)\] {
+  background-image: url(../Images/bg-rectangle.webp);
 }
 
-.bg-\[url\(\.\.\/Images\/te\)\] {
-  background-image: url(../Images/te);
-}
-
-.bg-\[url\(\.\.\/Images\/team\)\] {
-  background-image: url(../Images/team);
+.bg-\[url\(\.\.\/Images\/bg_footer\.webp\)\] {
+  background-image: url(../Images/bg_footer.webp);
 }
 
 .bg-\[url\(\.\.\/Images\/teamlogo\.webp\)\] {
   background-image: url(../Images/teamlogo.webp);
 }
 
-.bg-\[url\(\.\.\/Images\/bg\)\] {
-  background-image: url(../Images/bg);
+.bg-hero {
+  background-image: url('../images/win win.png');
 }
 
-.bg-\[url\(\.\.\/Images\/bg-re\)\] {
-  background-image: url(../Images/bg-re);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-rect\)\] {
-  background-image: url(../Images/bg-rect);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-rectangle\)\] {
-  background-image: url(../Images/bg-rectangle);
-}
-
-.bg-\[url\(\.\.\/Images\/bg-rectangle\.webp\)\] {
-  background-image: url(../Images/bg-rectangle.webp);
-}
-
-.bg-\[url\(\.\.\/Images\/bg_footer\.png\)\] {
-  background-image: url(../Images/bg_footer.png);
-}
-
-.bg-\[url\(\'\.\.\/Images\/my-background\.png\'\)\] {
-  background-image: url('../Images/my-background.png');
+.bg-\[url\(\.\.\/Images\/rwandabg\.webp\)\] {
+  background-image: url(../Images/rwandabg.webp);
 }
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
@@ -1246,6 +1291,10 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .px-12 {
@@ -1333,6 +1382,11 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1413,10 +1467,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
 .pt-28 {
   padding-top: 7rem;
 }
@@ -1445,12 +1495,36 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.pb-60 {
+  padding-bottom: 15rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
+.pb-96 {
+  padding-bottom: 24rem;
+}
+
+.pb-\[96\] {
+  padding-bottom: 96;
+}
+
+.pb-\[30rem\] {
+  padding-bottom: 30rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-left {
@@ -1773,6 +1847,10 @@ video {
     margin-top: -12rem;
   }
 
+  .md\:-mt-56 {
+    margin-top: -14rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1801,10 +1879,6 @@ video {
     margin-top: 2rem;
   }
 
-  .md\:-mt-56 {
-    margin-top: -14rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1827,6 +1901,18 @@ video {
 
   .md\:h-16 {
     height: 4rem;
+  }
+
+  .md\:min-h-\[\] {
+    min-height: ;
+  }
+
+  .md\:min-h-\[20rem\] {
+    min-height: 20rem;
+  }
+
+  .md\:min-h-\[15rem\] {
+    min-height: 15rem;
   }
 
   .md\:w-12 {
@@ -1950,6 +2036,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:bg-\[url\(\'\.\.\/Images\/iconic\.png\'\)\] {
+    background-image: url('../Images/iconic.png');
   }
 
   .md\:px-0 {
@@ -2367,6 +2457,126 @@ video {
     margin-top: 5rem;
   }
 
+  .\32xl\:-mt-40 {
+    margin-top: -10rem;
+  }
+
+  .\32xl\:-mt-0 {
+    margin-top: -0px;
+  }
+
+  .\32xl\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .\32xl\:-mt-6 {
+    margin-top: -1.5rem;
+  }
+
+  .\32xl\:-mt-64 {
+    margin-top: -16rem;
+  }
+
+  .\32xl\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .\32xl\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .\32xl\:mt-72 {
+    margin-top: 18rem;
+  }
+
+  .\32xl\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .\32xl\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .\32xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .\32xl\:mt-52 {
+    margin-top: 13rem;
+  }
+
+  .\32xl\:-mt-8 {
+    margin-top: -2rem;
+  }
+
+  .\32xl\:-mt-80 {
+    margin-top: -20rem;
+  }
+
+  .\32xl\:-mt-9 {
+    margin-top: -2.25rem;
+  }
+
+  .\32xl\:-mt-96 {
+    margin-top: -24rem;
+  }
+
+  .\32xl\:-mt-\[96\] {
+    margin-top: -96;
+  }
+
+  .\32xl\:-mt-\[27rem\] {
+    margin-top: -27rem;
+  }
+
+  .\32xl\:-mt-\[30rem\] {
+    margin-top: -30rem;
+  }
+
+  .\32xl\:min-h-\[\] {
+    min-height: ;
+  }
+
+  .\32xl\:min-h-\[25rem\] {
+    min-height: 25rem;
+  }
+
+  .\32xl\:min-h-\[45rem\] {
+    min-height: 45rem;
+  }
+
+  .\32xl\:min-h-\[75rem\] {
+    min-height: 75rem;
+  }
+
+  .\32xl\:min-h-\[5rem\] {
+    min-height: 5rem;
+  }
+
+  .\32xl\:min-h-\[65rem\] {
+    min-height: 65rem;
+  }
+
+  .\32xl\:min-h-\[55rem\] {
+    min-height: 55rem;
+  }
+
+  .\32xl\:min-h-\[4rem\] {
+    min-height: 4rem;
+  }
+
+  .\32xl\:min-h-\[49rem\] {
+    min-height: 49rem;
+  }
+
+  .\32xl\:min-h-\[rem\] {
+    min-height: rem;
+  }
+
+  .\32xl\:min-h-\[52rem\] {
+    min-height: 52rem;
+  }
+
   .\32xl\:w-\[50\%\] {
     width: 50%;
   }
@@ -2381,6 +2591,42 @@ video {
 
   .\32xl\:pt-36 {
     padding-top: 9rem;
+  }
+
+  .\32xl\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .\32xl\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .\32xl\:pb-60 {
+    padding-bottom: 15rem;
+  }
+
+  .\32xl\:pt-72 {
+    padding-top: 18rem;
+  }
+
+  .\32xl\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .\32xl\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .\32xl\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .\32xl\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .\32xl\:pb-0 {
+    padding-bottom: 0px;
   }
 }
 
