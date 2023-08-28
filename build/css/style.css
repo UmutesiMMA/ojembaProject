@@ -749,6 +749,10 @@ video {
   margin-top: 2rem;
 }
 
+.-mt-\[6\.8rem\] {
+  margin-top: -6.8rem;
+}
+
 .block {
   display: block;
 }
@@ -2109,6 +2113,14 @@ video {
     padding-bottom: 5rem;
   }
 
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pt-8 {
+    padding-top: 2rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2286,6 +2298,10 @@ video {
 
   .\32xl\:mt-52 {
     margin-top: 13rem;
+  }
+
+  .\32xl\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .\32xl\:min-h-\[55rem\] {
