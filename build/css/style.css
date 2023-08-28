@@ -1471,6 +1471,10 @@ video {
   src: url('../fonts/Montserrat.ttf');
 }
 
+.first-letter\:pb-20::first-letter {
+  padding-bottom: 5rem;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -2097,6 +2101,14 @@ video {
     padding-top: 8rem;
   }
 
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2218,6 +2230,14 @@ video {
 
   .xl\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .xl\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:pb-56 {
+    padding-bottom: 14rem;
   }
 
   .xl\:text-left {
