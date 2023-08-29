@@ -25,23 +25,25 @@
             loadComponents('partners', 'sections/partners.html');
             loadComponents('founder', 'sections/founder.html');
             loadComponents('rwanda', 'sections/rwanda.html');
+            loadComponents('qa', 'sections/qa.html');
             loadComponents('footer', 'sections/footer.html');
         }
     </script>
     <body>      
-        <div class="bg-hero bg-cover bg-no-repeat">
+        <div class="bg-hero bg-cover bg-no-repeat removeSlide">
             <div id="header"></div>
             <div id="hero"></div>
         </div>
-        <div id="managedTeam"></div>
-        <div class="bg-cover bg-[url(../Images/teamlogo.png)]">
-            <div id="team"></div>
+        <div id="managedTeam" class="removeSlide"></div>
+        <div class="bg-cover bg-[url(../Images/teamlogo.webp)] pb-20 removeSlide 2xl:pb-60">
+            <div id="team" class="2xl:mt-52"></div>
             <div id="skills"></div>  
         </div>
-        <div id="qualitat"></div>
-        <div id="partners"></div>
-        <div id="founder"></div>
-        <div id="rwanda"></div>
-        <div id="footer"></div>
+        <div id="qualitat" class="removeSlide -translate-y-48 md:-translate-y-[7.2rem] 2xl:-mt-64"></div>
+        <div id="partners" class="relative removeSlide -mt-[35rem]"></div>
+        <div id="founder" class="removeSlide"></div>
+        <div id="rwanda" class="removeSlide -mt-48 md:-mt-56 2xl:-mt-[30rem]"></div>
+        <div id="qa" class="removeSlide"></div>
+        <div id="footer" class="removeSlide"></div>
     </body>
 </html>
