@@ -1134,6 +1134,16 @@ video {
      object-fit: cover;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1295,12 +1305,12 @@ video {
   padding-top: 3rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
 .pt-28 {
   padding-top: 7rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .pt-32 {
@@ -1359,6 +1369,12 @@ video {
   font-family: Raleway-Bold;
 }
 
+.font-raleway-Medium {
+  font-family: Raleway-Medium;
+}
+
+.font-roboto {
+  font-family: Roboto;
 .font-roboto {
   font-family: Roboto;
 }
