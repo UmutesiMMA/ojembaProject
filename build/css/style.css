@@ -1365,6 +1365,12 @@ video {
 
 .font-montserrat-Bold {
   font-family: Montserrat-Bold;
+.font-raleway-Bold {
+  font-family: Raleway-Bold;
+}
+
+.font-montserrat-Medium {
+  font-family: Montserrat-Medium;
 }
 
 .text-2xl {
