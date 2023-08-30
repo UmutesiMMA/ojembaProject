@@ -69,11 +69,11 @@
     }
 
     .managed-team-title {
-        @apply text-[#040404] opacity-50 font-bold text-lg mb-2
+        @apply text-[#040404] opacity-50 font-raleway-Bold text-lg mb-2
     }
 
     .before-underline {
-        @apply relative before:absolute before:left-1/2 before:transform before:-translate-x-1/2 before:-bottom-[2px]  before:-rotate-[4deg] before:content-[''] before:w-full before:px-1 before:box-content before:h-2 before:block before:bg-[#8ACC50] before:opacity-[0.3]
+        @apply relative before:absolute before:left-1/2 before:transform before:-translate-x-1/2 before:-bottom-[2px]  before:-rotate-[4deg] before:content-[''] before:w-full before:px-1 before:box-content before:h-2 before:block before:bg-[#8ACC50]
     }
 
     .removeSlide {

@@ -607,9 +607,9 @@ video {
 
 .managed-team-title {
   margin-bottom: 0.5rem;
+  font-family: Raleway-Bold;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(4 4 4 / var(--tw-text-opacity));
   opacity: 0.5;
@@ -634,7 +634,6 @@ video {
   background-color: rgb(138 204 80 / var(--tw-bg-opacity));
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  opacity: 0.3;
   --tw-content: '';
   content: var(--tw-content);
 }
@@ -1050,6 +1049,11 @@ video {
   border-color: rgb(138 204 80 / var(--tw-border-opacity));
 }
 
+.bg-\[\#F1F4F6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#F4BA00\] {
   --tw-bg-opacity: 1;
   background-color: rgb(244 186 0 / var(--tw-bg-opacity));
@@ -1343,14 +1347,24 @@ video {
   font-family: Montserrat;
 }
 
+.font-montserrat-Medium {
+  font-family: Montserrat-Medium;
+}
+
 .font-raleway {
   font-family: Raleway;
+}
+
+.font-raleway-Bold {
+  font-family: Raleway-Bold;
 }
 
 .font-roboto {
   font-family: Roboto;
 }
 
+.font-montserrat-Bold {
+  font-family: Montserrat-Bold;
 .font-raleway-Bold {
   font-family: Raleway-Bold;
 }
@@ -1407,10 +1421,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-light {
