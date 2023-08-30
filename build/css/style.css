@@ -1351,8 +1351,12 @@ video {
   font-family: Roboto;
 }
 
-.font-raleway-ExtraBold {
-  font-family: Raleway-ExtraBold;
+.font-raleway-Bold {
+  font-family: Raleway-Bold;
+}
+
+.font-montserrat-Medium {
+  font-family: Montserrat-Medium;
 }
 
 .text-2xl {
