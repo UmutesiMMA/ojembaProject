@@ -2611,6 +2611,10 @@ video {
     margin-top: 13rem;
   }
 
+  .\32xl\:block {
+    display: block;
+  }
+
   .\32xl\:max-h-\[55rem\] {
     max-height: 55rem;
   }
@@ -2642,6 +2646,10 @@ video {
   .\32xl\:max-w-fit {
     max-width: -moz-fit-content;
     max-width: fit-content;
+  }
+
+  .\32xl\:justify-start {
+    justify-content: flex-start;
   }
 
   .\32xl\:pb-60 {
