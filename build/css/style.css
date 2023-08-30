@@ -587,7 +587,7 @@ video {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   padding-right: 0.75rem;
-  font-family: Montserrat, Helvetica;
+  font-family: Montserrat;
   font-weight: 700;
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -599,7 +599,7 @@ video {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   padding-right: 0.75rem;
-  font-family: Montserrat, Helvetica;
+  font-family: Montserrat;
   font-weight: 700;
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -695,6 +695,12 @@ video {
 
 .-mt-\[35rem\] {
   margin-top: -35rem;
+.-mt-\[35rem\] {
+  margin-top: -35rem;
+}
+
+.-mt-\[68px\] {
+  margin-top: -68px;
 }
 
 .-mt-\[68px\] {
@@ -1418,6 +1424,8 @@ video {
 
 .pb-80 {
   padding-bottom: 20rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -1437,15 +1445,23 @@ video {
 }
 
 .font-montserrat {
-  font-family: Montserrat, Helvetica;
+  font-family: Montserrat;
 }
 
 .font-raleway {
-  font-family: raleway, Helvetica;
+  font-family: Raleway;
 }
 
 .font-roboto {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
+}
+
+.font-raleway-Bold {
+  font-family: Raleway-Bold;
+}
+
+.font-montserrat-Medium {
+  font-family: Montserrat-Medium;
 }
 
 .text-2xl {
@@ -1546,11 +1562,33 @@ video {
   opacity: 0.8;
 }
 
+/* Roboto */
+
 @font-face {
   font-family: 'Roboto';
 
   src: url('../fonts/Roboto.ttf');
 }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+
+  src: url('../fonts/Roboto-Black.ttf');
+}
+
+/* Raleway */
 
 @font-face {
   font-family: 'Raleway';
@@ -1559,9 +1597,47 @@ video {
 }
 
 @font-face {
+  font-family: 'Raleway-Medium';
+
+  src: url('../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+
+  src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+
+  src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+
+/* Montserrat */
+
+@font-face {
   font-family: 'Montserrat';
 
   src: url('../fonts/Montserrat.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+
+  src: url('../fonts/Montserrat-ExtraBold.ttf');
 }
 
 .before\:absolute::before {
@@ -2491,6 +2567,22 @@ video {
 
   .xl\:w-\[60\%\] {
     width: 60%;
+
+@media (min-width: 1536px) {
+  .\32xl\:-mt-64 {
+    margin-top: -16rem;
+  }
+
+  .\32xl\:-mt-\[16\.9rem\] {
+    margin-top: -16.9rem;
+  }
+
+  .\32xl\:-mt-\[30rem\] {
+    margin-top: -30rem;
+  }
+
+  .\32xl\:ml-0 {
+    margin-left: 0px;
   }
 
   .xl\:w-\[\%\] {
@@ -2631,6 +2723,14 @@ video {
     min-height: rem;
   }
 
+  .\32xl\:mt-52 {
+    margin-top: 13rem;
+  }
+
+  .\32xl\:min-h-\[55rem\] {
+    min-height: 55rem;
+  }
+
   .\32xl\:w-\[50\%\] {
     width: 50%;
   }
@@ -2650,6 +2750,12 @@ video {
 
   .\32xl\:justify-start {
     justify-content: flex-start;
+  .\32xl\:w-\[85\%\] {
+    width: 85%;
+  }
+
+  .\32xl\:pb-40 {
+    padding-bottom: 10rem;
   }
 
   .\32xl\:pb-60 {
