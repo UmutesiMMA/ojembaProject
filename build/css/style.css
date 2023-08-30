@@ -2586,6 +2586,11 @@ video {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .\32xl\:-mt-64 {
     margin-top: -16rem;
   }
