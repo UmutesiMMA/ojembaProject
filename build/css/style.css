@@ -2216,6 +2216,10 @@ video {
     width: 70%;
   }
 
+  .\32xl\:w-3\/5 {
+    width: 60%;
+  }
+
   .\32xl\:max-w-fit {
     max-width: -moz-fit-content;
     max-width: fit-content;
