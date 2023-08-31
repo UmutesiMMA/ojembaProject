@@ -1904,10 +1904,6 @@ video {
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
   }
 
-  .md\:bg-\[url\(\'\.\.\/images\/iconic\.png\'\)\] {
-    background-image: url('../images/iconic.png');
-  }
-
   .md\:bg-iconic {
     background-image: url('../images/iconic.png');
   }
