@@ -1830,10 +1830,6 @@ video {
     width: 20rem;
   }
 
-  .md\:w-\[100\%\] {
-    width: 100%;
-  }
-
   .md\:w-\[50rem\] {
     width: 50rem;
   }
@@ -1848,10 +1844,6 @@ video {
 
   .md\:w-\[90\%\] {
     width: 90%;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:max-w-\[180px\] {
@@ -2025,10 +2017,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:relative {
     position: relative;
   }
@@ -2091,6 +2079,10 @@ video {
 
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:w-4\/5 {
+    width: 80%;
   }
 
   .lg\:w-\[55\%\] {
