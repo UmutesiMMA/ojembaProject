@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+/* Raleway */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+
+/* Montserrat */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+
+@layer components {
+    .container {
+        @apply w-full max-w-[1928px]
+    }
+
+    .qa-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
+    .team-input {
+        @apply flex-1 outline-none pl-2 pr-3 py-1 font-bold font-montserrat
+    }
+
+    .managed-team-title {
+        @apply text-[#040404] opacity-50 font-raleway-Bold text-lg mb-2
+    }
+
+    .before-underline {
+        @apply relative before:absolute before:left-1/2 before:transform before:-translate-x-1/2 before:-bottom-[2px]  before:-rotate-[4deg] before:content-[''] before:w-full before:px-1 before:box-content before:h-2 before:block before:bg-[#8ACC50]
+    }
+
+    .removeSlide {
+       @apply w-full h-full m-0 p-0 overflow-x-hidden
+    }
+
+    .listStyling {
+        @apply bg-white px-2.5 py-1.5 rounded-full
+
+    }
+}
+

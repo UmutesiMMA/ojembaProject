@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ojemba Project</title>
+    </head>
+    <script>
+        const loadComponents = async (id, url) =>  {
+            const response = await fetch(url);
+            const html = await response.text();
+            
+            document.getElementById(id).innerHTML = html;
+        }
+        window.onload = async () => {
+            loadComponents('header', 'sections/header.html');
+            loadComponents('hero', 'sections/hero.html');
+            loadComponents('managedTeam', 'sections/managedTeam.html');
+            loadComponents('team', 'sections/team.html').then(() => {
+                teamHandler();
+            } );
+            loadComponents('skills', 'sections/skills.html');
+            loadComponents('qualitat', 'sections/qualitat.html');
+            loadComponents('partners', 'sections/partners.html');
+            loadComponents('founder', 'sections/founder.html');
+            loadComponents('founderFooter', 'sections/founderFooter.html');
+            loadComponents('rwanda', 'sections/rwanda.html');
+            loadComponents('qa', 'sections/qa.html');
+            loadComponents('footer', 'sections/footer.html');
+        }
+    </script>
+    <script src="js/index.js"></script>
+    <body>      
+        <div class="bg-hero bg-cover bg-no-repeat removeSlide">
+            <div id="header"></div>
+            <div id="hero"></div>
+        </div>
+        <div id="managedTeam" class="removeSlide"></div>
+        <div class="bg-cover bg-[#F1F4F6] bg-managedTeam pb-20 removeSlide 2xl:pb-60">
+            <div id="team" class="2xl:mt-52"></div>
+            <div id="skills"></div>  
+        </div>
+        <div id="qualitat" class="removeSlide -translate-y-48 md:-translate-y-[7.2rem] 2xl:-mt-64"></div>
+        <div id="partners" class="relative removeSlide -mt-[35rem]"></div>
+        <div class="bg-founder bg-no-repeat bg-cover bg-center">
+            <div id="founder" class="removeSlide 2xl:pt-20"></div>
+            <div id="founderFooter" class="removeSlide pt-56 -mt-56 pb-72 2xl:pb-96 bg-founderFooter bg-no-repeat bg-cover bg-center"></div>
+        </div>
+        
+        <div id="rwanda" class="removeSlide -mt-36 xl:-mt-56 2xl:-mt-[26rem]"></div>
+        <div id="qa" class="removeSlide"></div>
+        <div id="footer" class="removeSlide"></div>
+
+        
+    </body>
+
+</html>
