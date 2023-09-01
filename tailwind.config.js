@@ -15,7 +15,19 @@ module.exports = {
         'primary-green': '#8ACC50',
       },
       backgroundImage: {
-        'hero': "url('../images/win win.png')"
+        'hero': "url('../images/winWin.webp')",
+        'managedTeam':"url('../images/teamlogo.webp')",
+        'skillset':"url('../images/bgteam.webp')",
+        'qualitat':"url('../images/qualitat.webp')",
+        'partners':"url('../images/BG_partners.webp')",
+        'founder':"url('../images/BG_Founder.svg')",
+        'founderFooter':"url('../images/bg_hero.webp')",
+        'rwandaWords':"url('../images/bg-rectangle.webp')",
+        'rwandabg':"url('../images/rwandabg.webp')",
+        'iconic':"url('../images/iconic.png')",
+        'africa':"url('../images/my-background.webp')",
+        'footer':"url('../images/bg_footer.webp')",
+
       }
     },
     fontFamily: {
