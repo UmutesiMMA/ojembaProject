@@ -79,5 +79,10 @@
     .removeSlide {
        @apply w-full h-full m-0 p-0 overflow-x-hidden
     }
+
+    .listStyling {
+        @apply bg-white px-2.5 py-1.5 rounded-full
+
+    }
 }
 

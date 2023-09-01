@@ -7,19 +7,19 @@
         <title>Ojemba Project</title>
     </head>
     <script>
-        const loadComponents = (id, url) =>  {
-            fetch(url)
-            .then((response) => response.text())
-            .then((html) => {
-                document.getElementById(id).innerHTML = html;
-            });
+        const loadComponents = async (id, url) =>  {
+            const response = await fetch(url);
+            const html = await response.text();
+            
+            document.getElementById(id).innerHTML = html;
         }
-
-        window.onload = () => {
+        window.onload = async () => {
             loadComponents('header', 'sections/header.html');
             loadComponents('hero', 'sections/hero.html');
             loadComponents('managedTeam', 'sections/managedTeam.html');
-            loadComponents('team', 'sections/team.html');
+            loadComponents('team', 'sections/team.html').then(() => {
+                teamHandler();
+            } );
             loadComponents('skills', 'sections/skills.html');
             loadComponents('qualitat', 'sections/qualitat.html');
             loadComponents('partners', 'sections/partners.html');
@@ -28,15 +28,17 @@
             loadComponents('rwanda', 'sections/rwanda.html');
             loadComponents('qa', 'sections/qa.html');
             loadComponents('footer', 'sections/footer.html');
+            console.log('This is html')
         }
     </script>
+    <script src="/build/js/index.js"></script>
     <body>      
         <div class="bg-hero bg-cover bg-no-repeat removeSlide">
             <div id="header"></div>
             <div id="hero"></div>
         </div>
         <div id="managedTeam" class="removeSlide"></div>
-        <div class="bg-cover bg-[url(../Images/teamlogo.webp)] pb-20 removeSlide 2xl:pb-60">
+        <div class="bg-cover bg-[url(../Images/teamlogo.webp)] pb-20 removeSlide 2xl:pb-60 teams">
             <div id="team" class="2xl:mt-52"></div>
             <div id="skills"></div>  
         </div>
@@ -50,5 +52,8 @@
         <div id="rwanda" class="removeSlide -mt-36 xl:-mt-56 2xl:-mt-[26rem]"></div>
         <div id="qa" class="removeSlide"></div>
         <div id="footer" class="removeSlide"></div>
+
+        
     </body>
+
 </html>
