@@ -15,7 +15,7 @@ module.exports = {
         'primary-green': '#8ACC50',
       },
       backgroundImage: {
-        'hero': "url('../images/win win.png')",
+        'hero': "url('../images/winWin.webp')",
         'managedTeam':"url('../images/teamlogo.webp')",
         'skillset':"url('../images/bgteam.webp')",
         'qualitat':"url('../images/qualitat.webp')",
